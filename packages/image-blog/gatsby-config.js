@@ -85,12 +85,6 @@ module.exports = {
       resolve: `gatsby-plugin-sharp`,
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID, //`ADD YOUR TRACKING ID HERE`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-feed`,
       options: {
         feeds: [],
